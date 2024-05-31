@@ -1,0 +1,46 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import "vue-toastification/dist/index.css";
+
+
+.main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-brown {
+  background-color: #2d0d00;
+}
+
+.no-link-decoration {
+  text-decoration: none;
+}
+
+.btn-outline-dark:hover {
+  background: #2d0d00;
+}
+
+.product-image {
+  height: 50%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  width: 100%;
+  border-color: #8b8b8b;
+}
+
+/* .modal {
+  display: none;
+} */
+
+.modal.show {
+  display: block;
+}
+
+*[name="productList"] {
+  max-height: 300px;
+  overflow: auto;
+}
